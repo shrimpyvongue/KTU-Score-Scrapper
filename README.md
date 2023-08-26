@@ -20,10 +20,6 @@ This is a web scraper written in Python using the Playwright and BeautifulSoup l
 - Modify the `username` and `password` fields in `scraper.py` to match your KTU student portal login credentials.
 - Adjust the selectors in the script to match the HTML structure of the website if needed.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 - This scraper was developed for educational purposes and to demonstrate web scraping techniques.
