@@ -10,8 +10,8 @@ with sync_playwright() as p:
     # Login to the website
     page.goto('https://app.ktu.edu.in/login.htm')
     # credentials to login
-    page.fill('input#login-username', 'demo')
-    page.fill('input#login-password', 'demo')
+    page.fill('input#login-username', 'yourusername')
+    page.fill('input#login-password', 'yourpassword')
     page.click('input#btn-login')
     
     # Navigate to the target page
